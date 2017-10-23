@@ -1,0 +1,49 @@
+.headshot{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+
+h1{
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 500%;
+    font-weight: bold; letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 250%;
+    font-weight: bold; letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+}
