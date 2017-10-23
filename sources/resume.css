@@ -50,6 +50,7 @@ ul{
     font-size: 15px;
     text-align: left;
 }
+
 .ul_col2{
     column-count: 2;
     list-style-position: inside;
@@ -69,7 +70,14 @@ ul{
     padding: 3px;
 }
 
+.center{
+    top: 40px;
+}
 img{
     height: 350px;
     padding: 20px;
+}
+
+.buffer{
+    padding-top: 20px;
 }

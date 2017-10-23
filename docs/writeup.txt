@@ -1,0 +1,11 @@
+My website has a navigation bar at the top with four options. Home is the index.html page that has my photo and links
+to my other social media accounts and sites. Resume is the resume.html page that was required by the project
+specifications. It is laid out similarly to my actual resume but I kept the fonts the same as the rest of the website.
+Projects is the page that I want to be able to continue to update. As of now, there are links to my Github and other
+accounts but no projects directly on the site. Lastly, the about me page has a summary, highlights and the ability
+to get my pdf resume.
+
+The two big things that I would change in my website is layout when you shrink the site and adding projects to the page.
+When pages shrink, they sign up on top of each other in an uneven way. I would adapt the way containers/rows to shrink
+accordingly. For projects, I think it would be cool to have an element that would show off my art in a nice layout.
+In addition it would be nice show my active Github contributions in an interesting way.

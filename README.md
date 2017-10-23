@@ -1,11 +1,13 @@
 Personal Website
 ===
-Morgan Peters, 2017 
+Morgan Peters, 2017
 
-in addition to this being an assignment for COM421, i will plan on keeping it updated for future use 
+Dependencies
+---
+**Bootstrap**: Container, Row, Col-lg-#. These are all class names given by 
+bootstrap that I used for layout in my website. 
 
 
 Issues
 ----
-when you shrink the website it does weird things 
-cut down alot of the cs code so i dont have it all over the place 
+when you shrink the website it does weird things. 
