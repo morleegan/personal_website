@@ -81,3 +81,14 @@ img{
 .buffer{
     padding-top: 20px;
 }
+
+.projectimg{
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
+
+.p{
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+}
