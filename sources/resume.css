@@ -92,3 +92,7 @@ img{
     font-family: 'Alegreya', serif;
     font-size: 15px;
 }
+
+.shift{
+    left: -20px;
+}
