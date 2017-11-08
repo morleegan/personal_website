@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Read the README for documentation on dependencies-->
+    <!--Bootstrap Container, Row, col-lg-NUM. These are all class names given by
+        bootstrap that I used for layout in my website. This makes the website look
+        more symmetrical -->
     <meta charset="UTF-8">
     <title>Morgan's Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../sources/resume.css">
+    <link rel="stylesheet" type="text/css" href="sources/resume.css">
 </head>
 <body id="resume" class="container">
-    <header class="row">
-        <a href="../index.html" class="col-lg-3"><h5 >Home</h5></a>
-        <a href="about.html" class="col-lg-3"><h5>About Me</h5></a>
-        <a href="project.html" class="col-lg-3"><h5>Projects</h5></a>
-        <a href="resume.html" class="col-lg-3"><h5>Resume</h5></a>
+    <header>
+        <nav class="row">
+            <a href="index.html" class="col-lg-3"><h5 >Home</h5></a>
+            <a href="about.html" class="col-lg-3"><h5>About Me</h5></a>
+            <a href="project.html" class="col-lg-3"><h5>Projects</h5></a>
+            <a href="resume.html" class="col-lg-3"><h5>Resume</h5></a>
+        </nav>
     </header>
     <div class="line-separator"></div>
     <h1>Morgan Lee Peters</h1>
     <div class="line-separator"></div>
-    <div class="row">
+    <section class="row">
         <p class="col-lg-2">Contact me:</p>
         <p class="col-lg-2">805-807-3493</p>
         <p class="col-lg-3">morleegan@yahoo.com</p>
         <p class="col-lg-2">@morleegan</p>
-        <a class="col-lg-2" href="../sources/Morgan_Peters_Resume.pdf"><p>Resume Pdf</p></a>
-    </div>
+        <a class="col-lg-2" href="sources/Morgan_Peters_Resume.pdf"><p>Resume Pdf</p></a>
+    </section>
     <div class="line-separator"></div>
-    <div id="skills" class="row">
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Illinois Institute of Technology, Chicago, IL, USA</h3>
+        <ul>
+            <li>Graduation: May 2018</li>
+            <li>Bachelors of Science, Computer Science</li>
+        </ul>
+        <h3>University of Canterbury, Christchurch, New Zealand</h3>
+        <ul>
+            <li>Six month exchange program</li>
+        </ul>
+        <h3>Relevant Course Work</h3>
+        <p>Object Oriented Programming and Design, Algorithms, Languages and Translators,
+            Artificial Intelligence, Introduction into Computer Networks and the Internet, Cryptography and Coding Theory</p>
+    </section>
+    <div class="line-separator"></div>
+    <section id="work">
+        <h2>Work Experience</h2>
+        <h3>TIBCO Software Engineering Internship</h3>
+        <ul>
+            <li>Implemented a website using JavaScript, REST, and Go.</li>
+            <li>Evolved the Quality Assurance testing using Python.</li>
+        </ul>
+    </section>
+    <div class="line-separator"></div>
+    <section id="skills" class="row">
         <h2 class="col-lg-12">Skills</h2>
         <div class="line-separator-gray"></div>
         <div class="col-lg-6">
@@ -54,59 +83,27 @@
                     <li>Adobe Photoshop</li>
                 </ul>
             </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 shift">
             <h3>Personal</h3>
-                <ul class="ul_col2">
+                <ul>
                     <li>Good organization, with attention to detail.</li>
                     <li>Quick learner, always looking learn and improve.</li>
                     <li>Great interpersonal skills.</li>
                 </ul>
         </div>
-    </div>
+    </section>
     <div class="line-separator"></div>
-    <div id="education">
-        <h2>Education</h2>
-        <h3>Illinois Institute of Technology, Chicago, IL, USA</h3>
-            <ul>
-                <li>Graduation: May 2018</li>
-                <li>Bachelors of Science, Computer Science</li>
-            </ul>
-        <h3>University of Canterbury, Christchurch, New Zealand</h3>
-        <ul>
-            <li>Six month exchange program</li>
-        </ul>
-        <h3>Relevant Course Work</h3>
-        <p>Object Oriented Programming and Design, Algorithms, Languages and Translators,
-            Artificial Intelligence, Introduction into Computer Networks and the Internet, Cryptography and Coding Theory</p>
-    </div>
-    <div class="line-separator"></div>
-    <div id="work">
-        <h2>Work Experience</h2>
-        <h3>TIBCO Software Engineering Internship</h3>
-        <ul>
-            <li>Implemented a website using JavaScript, REST, and Go.</li>
-            <li>Evolved the Quality Assurance testing using Python.</li>
-        </ul>
-    </div>
-    <div class="line-separator"></div>
-    <div id="activities" class="row">
+    <section id="activities" class="row">
         <h2 class="col-lg-12">Activities and Organizations</h2>
         <div class="col-lg-6">
-            <h3>SGA: Student Government Association</h3>
-            <ul>
-                <li>President (May 2017 - April 2018)</li>
-                <li>Senator (August 2015 - May 2016) </li>
-                <li>Volunteer (January 2017 - May 2017)</li>
-            </ul>
             <h3>KPD: Kappa Phi Delta</h3>
             <ul>
                 <li>Webmaster (January 2017 - May 2018)</li>
             </ul>
             <h3>SWE: Society of Women Engineers</h3>
-        </div>
-        <div class="line-separator"></div>
-        <div class="col-lg-6">
             <h3>AITP: Association of Information Technology Professionals</h3>
+        </div>
+        <div class="col-lg-6">
             <h3>Women in STEM</h3>
             <ul>
                 <li>Promotes high school girls interest in STEM fields</li>
@@ -116,9 +113,9 @@
                 <li>Fundraising for a local hospital in Chicago</li>
             </ul>
         </div>
-    </div>
+    </section>
     <div class="line-separator"></div>
-    <div id="leadership">
+    <section id="leadership">
         <h2>Leadership Experience</h2>
         <h3>Student Government Association</h3>
         <h4>Illinois Institute of Technology, Chicago, Il</h4>
@@ -131,14 +128,13 @@
         <ul>
             <li>Review Student Code of Conduct Violations and weigh in on disciplinary actions the student may face.</li>
         </ul>
-    </div>
+    </section>
     <div class="line-separator"></div>
-    <footer class="row">
-        <h1 class="col-lg-4">@morleegan</h1>
-        <a class="col-lg-1" href="https://github.com/morleegan"><img class="icon" src="../sources/Octicons-mark-github.svg" alt="github icon"></a>
-        <a class="col-lg-1" href="https://www.instagram.com/morleegan/"><img class="icon" src="../sources/insta.svg" alt="instagram icon"></a>
-        <a class="col-lg-1" href="https://www.linkedin.com/in/morleegan/"><img class="icon" src="../sources/linkedin.svg" alt="linkedin icon"></a>
-        <a class="col-lg-1" href="https://www.facebook.com/morleegan23"><img class="icon" src="../sources/fb.svg" alt="facebook icon"></a>
-    </footer>
+    <nav class="row">
+        <a class="col-lg-1" href="https://github.com/morleegan"><img class="icon" src="sources/Octicons-mark-github.svg" alt="github icon"></a>
+        <a class="col-lg-1" href="https://www.instagram.com/morleegan/"><img class="icon" src="sources/insta.svg" alt="instagram icon"></a>
+        <a class="col-lg-1" href="https://www.linkedin.com/in/morleegan/"><img class="icon" src="sources/linkedin.svg" alt="linkedin icon"></a>
+        <a class="col-lg-1" href="https://www.facebook.com/morleegan23"><img class="icon" src="sources/fb.svg" alt="facebook icon"></a>
+    </nav>
 </body>
 </html>
